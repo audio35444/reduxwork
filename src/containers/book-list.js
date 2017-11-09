@@ -13,7 +13,7 @@ class BookList extends Component{
     return this.props.books.map(book =><li
       onClick={()=>this.props.selectBook(book)}
       key={book.title}
-      className="list-group-item">{book.title}</li>)
+      className="list-group-item"><h5>{book.title}</h5></li>)
   }
   render(){
     //console.log(this.props.asdf);

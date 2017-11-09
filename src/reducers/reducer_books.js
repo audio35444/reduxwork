@@ -1,8 +1,8 @@
 export default function(){
   return [
-    {title:'Javascrip'},
-    {title:'Nodejs'},
-    {title:'Reactjs'},
-    {title:'Angular4'}
+    {title:'Javascrip',pages:200},
+    {title:'Nodejs',pages:300},
+    {title:'Reactjs',pages:760},
+    {title:'Angular4',pages:100}
   ]
 }
